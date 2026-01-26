@@ -40,11 +40,6 @@ export function Header() {
               className="hover:text-zinc-100"
             />
             <NavButton
-              label="Certificações"
-              onClick={() => scrollTo("certificados", "Certificados")}
-              className="hover:text-zinc-100"
-            />
-            <NavButton
               label="Contato"
               onClick={() => scrollTo("contato", "Contato")}
               className="hover:text-zinc-100"

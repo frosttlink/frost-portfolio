@@ -6,8 +6,7 @@ type NavButtonProps = {
 
 export function NavButton({ label, onClick, className }: NavButtonProps) {
   return (
-    // biome-ignore lint/a11y/useButtonType: <dev>
-    <button onClick={onClick} className={className}>
+    <button type="button" onClick={onClick} className={className}>
       {label}
     </button>
   );

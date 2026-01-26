@@ -7,7 +7,6 @@ import { IgniteShopProject } from "@/components/projetcts/ignite-shop";
 import { WebhookInspectorProject } from "@/components/projetcts/webhook-inspector";
 import { Stacks } from "@/components/stacks";
 import { Contact } from "@/components/contact";
-import { Certifications } from "@/components/certifiactions";
 
 export default function Home() {
   return (
@@ -42,10 +41,6 @@ export default function Home() {
               <IgniteShopProject />
               <DtMoneyProject />
             </div>
-          </section>
-
-          <section id="certificados" className="mt-10 scroll-mt-24">
-            <Certifications />
           </section>
 
           <section id="contato" className="mt-10 scroll-mt-24">
