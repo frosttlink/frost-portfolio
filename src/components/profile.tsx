@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Profile() {
   return (
-    <div className="flex flex-col gap-6">
+    <div id="top" className="flex flex-col gap-6 scroll-mt-24">
       <div className="flex items-center gap-4">
         <Image
           className="rounded-lg border border-zinc-800/80"

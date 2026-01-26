@@ -1,6 +1,6 @@
-import * as Dialog from "@radix-ui/react-dialog"
-import Image from "next/image"
-import { ExternalLink, X } from "lucide-react"
+import * as Dialog from "@radix-ui/react-dialog";
+import Image from "next/image";
+import { ExternalLink, X } from "lucide-react";
 
 export function IgniteShopProject() {
   return (

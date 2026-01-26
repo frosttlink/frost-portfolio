@@ -17,9 +17,7 @@ export function CoffeeShopProject() {
             />
           </div>
 
-          <h3 className="text-sm font-medium text-zinc-100">
-            Coffee Shop
-          </h3>
+          <h3 className="text-sm font-medium text-zinc-100">Coffee Shop</h3>
 
           <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
             Pequeno app de e-commerce de cafés com UI completa, carrinho e fluxo

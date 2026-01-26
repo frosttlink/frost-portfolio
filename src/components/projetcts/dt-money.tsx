@@ -17,9 +17,7 @@ export function DtMoneyProject() {
             />
           </div>
 
-          <h3 className="text-sm font-medium text-zinc-100">
-            DT Money
-          </h3>
+          <h3 className="text-sm font-medium text-zinc-100">DT Money</h3>
 
           <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
             Aplicação de controle financeiro para registrar transações e

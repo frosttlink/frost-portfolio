@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "titulo": "Formação em React",
+    "instituicao": "Rocketseat",
+    "inicio": "2025-03",
+    "conclusao": "2026-01",
+    "descricao": "Fundamentos do ReactJS, Criação de SPAs com ReactJS, Consumo de API e performance no ReactJS, \n \n Fundamentos do Next.js, Design System e Storybook e Criação de aplicação FullStack com NextJS.",
+    "conteudos": [
+      "React",
+      "Next",
+      "TypeScript",
+      "SPA",
+      "Consumo de API",
+      "Performace Web",
+      "Design System",
+      "StoryBook",
+      "Full Stack"
+    ],
+    "link": "https://app.rocketseat.com.br/certificates/ff2cde1b-5a33-4210-8119-c0e7afa1e5c1"
+  },
+  {
+    "id": 2,
+    "titulo": "Informática",
+    "instituicao": "Instituto Social Nossa Senhora de Fátima | Frei",
+    "inicio": "2024-02",
+    "conclusao": "2024-11",
+    "descricao": "Curso de Informática com foco em lógica de programação, desenvolvimento web (HTML, CSS, JavaScript e React), \n \n bancos de dados SQL, redes, hardware e sistemas operacionais, oferecendo uma base sólida em TI.",
+    "conteudos": [
+      "HTML",
+      "CSS",
+      "SQL",
+      "JS",
+      "NPM",
+      "JSX",
+      "React",
+      "Framework",
+      "Hardware",
+      "Redes de computadores",
+      "Lógica de Programação",
+      "Matemática Financeira",
+      "Empreendedorismo",
+      "Inglês",
+      "Windows | Linux",
+      "Banco de dados"
+    ],
+    "link": "#"
+  }
+]
