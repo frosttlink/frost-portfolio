@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Head from "next/head";
 import { NavButton } from "./ui/nav-button";
+import { DownloadCV } from "./download-cv";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -44,6 +45,8 @@ export function Header() {
               onClick={() => scrollTo("contato", "Contato")}
               className="hover:text-zinc-100"
             />
+
+            <DownloadCV />
           </nav>
 
           <button
@@ -75,6 +78,7 @@ export function Header() {
                 onClick={() => scrollTo("contato", "Contato")}
                 className="text-zinc-400 hover:text-zinc-100 text-left"
               />
+              <DownloadCV />
             </div>
           </div>
         )}
