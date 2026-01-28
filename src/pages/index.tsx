@@ -7,6 +7,7 @@ import { IgniteShopProject } from "@/components/projetcts/ignite-shop";
 import { WebhookInspectorProject } from "@/components/projetcts/webhook-inspector";
 import { Stacks } from "@/components/stacks";
 import { Contact } from "@/components/contact";
+import { IgniteTimerProject } from "@/components/projetcts/ignite-timer";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
               <CoffeeShopProject />
               <IgniteShopProject />
               <DtMoneyProject />
+              <IgniteTimerProject />
             </div>
           </section>
 

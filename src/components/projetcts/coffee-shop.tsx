@@ -1,6 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import Image from "next/image";
-import { ExternalLink, X } from "lucide-react";
+import { X } from "lucide-react";
+import { ProjectLinks } from "../ui/projetct-links";
 
 export function CoffeeShopProject() {
   return (
@@ -17,7 +18,9 @@ export function CoffeeShopProject() {
             />
           </div>
 
-          <h3 className="text-sm font-medium text-zinc-100">Coffee Shop</h3>
+          <div>
+            <h3 className="text-sm font-medium text-zinc-100">Coffee Shop</h3>
+          </div>
 
           <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
             Pequeno app de e-commerce de cafés com UI completa, carrinho e fluxo
@@ -38,8 +41,9 @@ export function CoffeeShopProject() {
 
         <Dialog.Content className="fixed left-1/2 top-1/2 w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 rounded-lg border border-zinc-800 bg-zinc-950 p-6 focus:outline-none">
           <div className="flex items-start justify-between">
-            <Dialog.Title className="text-lg font-medium text-zinc-100">
+            <Dialog.Title className="flex items-center gap-2 text-lg font-medium text-zinc-100">
               Coffee Shop
+              <span className="inline-block rounded-full w-2 h-2 bg-amber-500 mt-1" />
             </Dialog.Title>
 
             <Dialog.Close className="text-zinc-400 hover:text-zinc-100">
@@ -80,21 +84,11 @@ export function CoffeeShopProject() {
             <span>Context API</span>
           </div>
 
-          <div className="mt-6 flex justify-end">
-            <a
-              href="https://github.com/frosttlink/coffee-shop"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-                inline-flex items-center gap-2
-                rounded-md border border-zinc-800
-                px-4 py-2 text-sm text-zinc-300
-                hover:bg-zinc-900
-              "
-            >
-              Ver no GitHub
-              <ExternalLink className="h-4 w-4" />
-            </a>
+          <div className="mt-6 flex justify-end gap-3">
+            <ProjectLinks
+              githubUrl="https://github.com/frosttlink/coffee-shop"
+              liveUrl="https://coffee-shop-chi-puce.vercel.app/"
+            />
           </div>
         </Dialog.Content>
       </Dialog.Portal>
