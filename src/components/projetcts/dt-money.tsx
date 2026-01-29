@@ -1,7 +1,7 @@
-import * as Dialog from "@radix-ui/react-dialog";
-import Image from "next/image";
-import { X } from "lucide-react";
-import { ProjectLinks } from "../ui/projetct-links";
+import * as Dialog from "@radix-ui/react-dialog"
+import Image from "next/image"
+import { X } from "lucide-react"
+import { ProjectLinks } from "../ui/projetct-links"
 
 export function DtMoneyProject() {
   return (
@@ -87,5 +87,5 @@ export function DtMoneyProject() {
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
-  );
+  )
 }

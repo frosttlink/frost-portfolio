@@ -1,10 +1,10 @@
-import Link from "next/link";
-import { ExternalLink } from "lucide-react";
+import Link from "next/link"
+import { ExternalLink } from "lucide-react"
 
 type ProjectLinksProps = {
-  githubUrl: string;
-  liveUrl?: string;
-};
+  githubUrl: string
+  liveUrl?: string
+}
 
 export function ProjectLinks({ githubUrl, liveUrl }: ProjectLinksProps) {
   return (
@@ -31,5 +31,5 @@ export function ProjectLinks({ githubUrl, liveUrl }: ProjectLinksProps) {
         <ExternalLink className="h-4 w-4" />
       </Link>
     </div>
-  );
+  )
 }

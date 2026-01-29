@@ -1,8 +1,8 @@
-import type { LucideIcon } from "lucide-react";
+import type { LucideIcon } from "lucide-react"
 
 interface CardStackProps {
-  label: string;
-  icon: LucideIcon;
+  label: string
+  icon: LucideIcon
 }
 
 export function CardStack({ icon: Icon, label }: CardStackProps) {

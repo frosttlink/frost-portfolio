@@ -1,19 +1,19 @@
-import { useState } from "react";
-import { Menu, X } from "lucide-react";
-import Head from "next/head";
-import { NavButton } from "./ui/nav-button";
-import { DownloadCV } from "./download-cv";
+import { useState } from "react"
+import { Menu, X } from "lucide-react"
+import Head from "next/head"
+import { NavButton } from "./ui/nav-button"
+import { DownloadCV } from "./download-cv"
 
 export function Header() {
-  const [open, setOpen] = useState(false);
-  const [title, setTitle] = useState("Home");
+  const [open, setOpen] = useState(false)
+  const [title, setTitle] = useState("Home")
 
   function scrollTo(id: string, pageTitle: string) {
-    setTitle(pageTitle);
-    setOpen(false);
+    setTitle(pageTitle)
+    setOpen(false)
 
-    const el = document.getElementById(id);
-    el?.scrollIntoView({ behavior: "smooth" });
+    const section = document.getElementById(id)
+    section?.scrollIntoView({ behavior: "smooth" })
   }
 
   return (
@@ -84,5 +84,5 @@ export function Header() {
         )}
       </header>
     </>
-  );
+  )
 }

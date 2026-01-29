@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 
 export function Profile() {
   return (
@@ -9,7 +9,7 @@ export function Profile() {
           src="https://github.com/frosttlink.png"
           width={96}
           height={96}
-          alt=""
+          alt="Imagem de perfil"
         />
 
         <div className="flex flex-col">
@@ -41,5 +41,5 @@ export function Profile() {
         </p>
       </div>
     </div>
-  );
+  )
 }

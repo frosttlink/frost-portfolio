@@ -1,22 +1,24 @@
-import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
+import { 
+  Github, 
+  Linkedin, 
+  Mail, 
+  MessageCircle 
+} from "lucide-react"
 
 export function Contact() {
-  const email = "lleonh.alves@gmail.com";
+  const email = "lleonh.alves@gmail.com"
 
-  const emailSubject = encodeURIComponent("Contato via frost.dev");
+  const emailSubject = encodeURIComponent("Contato via frost.dev")
   const emailBody = encodeURIComponent(
-    "Olá Leo! Vi seu portfólio (frost.dev) e gostaria de conversar sobre uma possível oportunidade/projeto.\n\nFico no aguardo!",
-  );
+    "Olá, Léo!\n\nVi seu portfólio (frost.dev) e gostei bastante do seu trabalho. Gostaria de conversar sobre uma possível oportunidade ou projeto.\n\nFico à disposição para falarmos melhor.\n\nAbraços!",
+  )
 
   const whatsappMessage = encodeURIComponent(
-    "Olá Leo! Vi seu portfólio (frost.dev) e gostaria de conversar sobre uma oportunidade/projeto.",
-  );
+    "Olá, Léo! Tudo bem?\nVi seu portfólio (frost.dev) e curti muito seu trabalho. Gostaria de conversar sobre uma possível oportunidade ou projeto 😊",
+  )
 
   return (
-    <section
-      id="contato"
-      className="mt-16 scroll-mt-24 grid gap-8 md:grid-cols-2"
-    >
+    <section id="contato" className="mt-16 scroll-mt-24 grid gap-8 md:grid-cols-2">
       <div className="flex flex-col gap-4">
         <h2 className="text-sm font-medium uppercase tracking-widest text-zinc-500">
           Contato
@@ -83,5 +85,5 @@ export function Contact() {
         </div>
       </div>
     </section>
-  );
+  )
 }

@@ -1,4 +1,4 @@
-import { Download } from "lucide-react";
+import { Download } from "lucide-react"
 
 export function DownloadCV() {
   return (
@@ -15,5 +15,5 @@ export function DownloadCV() {
         Download CV
       </button>
     </a>
-  );
+  )
 }
