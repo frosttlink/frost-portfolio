@@ -1,13 +1,16 @@
 import Head from "next/head";
+import { Contact } from "@/components/contact";
 import { Header } from "@/components/header";
 import { Profile } from "@/components/profile";
 import { CoffeeShopProject } from "@/components/projetcts/coffee-shop";
+import { CurrencyConverterProject } from "@/components/projetcts/currency-converter";
 import { DtMoneyProject } from "@/components/projetcts/dt-money";
+import { GithubBlogProject } from "@/components/projetcts/github-blog";
 import { IgniteShopProject } from "@/components/projetcts/ignite-shop";
+import { IgniteTimerProject } from "@/components/projetcts/ignite-timer";
+import { UserHubProject } from "@/components/projetcts/user-hub";
 import { WebhookInspectorProject } from "@/components/projetcts/webhook-inspector";
 import { Stacks } from "@/components/stacks";
-import { Contact } from "@/components/contact";
-import { IgniteTimerProject } from "@/components/projetcts/ignite-timer";
 
 export default function Home() {
   return (
@@ -42,6 +45,9 @@ export default function Home() {
               <IgniteShopProject />
               <DtMoneyProject />
               <IgniteTimerProject />
+              <CurrencyConverterProject />
+              <UserHubProject />
+              <GithubBlogProject />
             </div>
           </section>
 

@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export function Profile() {
   return (
@@ -41,5 +41,5 @@ export function Profile() {
         </p>
       </div>
     </div>
-  )
+  );
 }

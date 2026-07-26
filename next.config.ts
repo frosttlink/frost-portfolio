@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     domains: [
       "github.com",
       "opengraph.githubassets.com",
-      "ignite-timer-beryl.vercel.app"
+      "ignite-timer-beryl.vercel.app",
     ],
     remotePatterns: [
       {

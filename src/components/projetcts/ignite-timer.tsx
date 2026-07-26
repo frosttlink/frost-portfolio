@@ -1,7 +1,7 @@
-import * as Dialog from "@radix-ui/react-dialog"
-import Image from "next/image"
-import { X } from "lucide-react"
-import { ProjectLinks } from "../ui/projetct-links"
+import * as Dialog from "@radix-ui/react-dialog";
+import Image from "next/image";
+import { X } from "lucide-react";
+import { ProjectLinks } from "../ui/projetct-links";
 
 export function IgniteTimerProject() {
   return (
@@ -88,10 +88,10 @@ export function IgniteTimerProject() {
             <ProjectLinks
               githubUrl="https://github.com/frosttlink/ignite-timer"
               liveUrl="https://ignite-timer-beryl.vercel.app/"
-              />
+            />
           </div>
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
-  )
+  );
 }

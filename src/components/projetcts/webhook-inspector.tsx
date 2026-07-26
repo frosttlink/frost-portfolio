@@ -1,7 +1,7 @@
-import * as Dialog from "@radix-ui/react-dialog"
-import Image from "next/image"
-import { X } from "lucide-react"
-import { ProjectLinks } from "../ui/projetct-links"
+import * as Dialog from "@radix-ui/react-dialog";
+import Image from "next/image";
+import { X } from "lucide-react";
+import { ProjectLinks } from "../ui/projetct-links";
 
 export function WebhookInspectorProject() {
   return (
@@ -45,7 +45,6 @@ export function WebhookInspectorProject() {
               <span className="inline-block rounded-full w-2 h-2 bg-emerald-500 mt-1" />
             </Dialog.Title>
 
-
             <Dialog.Close className="text-zinc-400 hover:text-zinc-100">
               <X className="h-5 w-5" />
             </Dialog.Close>
@@ -86,12 +85,10 @@ export function WebhookInspectorProject() {
           </div>
 
           <div className="mt-6 flex justify-end">
-            <ProjectLinks
-              githubUrl="https://github.com/frosttlink/webhook-inspector"
-            />
+            <ProjectLinks githubUrl="https://github.com/frosttlink/webhook-inspector" />
           </div>
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
-  )
+  );
 }

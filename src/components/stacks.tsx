@@ -1,4 +1,4 @@
-import { CardStack } from "./card-stack"
+import { CardStack } from "./card-stack";
 import {
   Atom,
   Layers,
@@ -14,9 +14,9 @@ import {
   HardDrive,
   Binary,
   GraduationCap,
-} from "lucide-react"
-import { StackSection } from "./stack-section"
-import { StackAccordion } from "./stack-accordion"
+} from "lucide-react";
+import { StackSection } from "./stack-section";
+import { StackAccordion } from "./stack-accordion";
 
 export function Stacks() {
   return (
@@ -50,5 +50,5 @@ export function Stacks() {
         </StackSection>
       </div>
     </StackAccordion>
-  )
+  );
 }

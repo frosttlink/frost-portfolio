@@ -1,7 +1,7 @@
-import * as Dialog from "@radix-ui/react-dialog"
-import Image from "next/image"
-import { X } from "lucide-react"
-import { ProjectLinks } from "../ui/projetct-links"
+import * as Dialog from "@radix-ui/react-dialog";
+import Image from "next/image";
+import { X } from "lucide-react";
+import { ProjectLinks } from "../ui/projetct-links";
 
 export function IgniteShopProject() {
   return (
@@ -21,7 +21,7 @@ export function IgniteShopProject() {
           <h3 className="text-sm font-medium text-zinc-100">Ignite Shop</h3>
 
           <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
-             E-commerce de camisetas com carrinho e integração Stripe.
+            E-commerce de camisetas com carrinho e integração Stripe.
           </p>
 
           <div className="mt-4 flex flex-wrap gap-2 text-xs text-zinc-500">
@@ -82,12 +82,10 @@ export function IgniteShopProject() {
           </div>
 
           <div className="mt-6 flex justify-end gap-3">
-            <ProjectLinks
-              githubUrl="https://github.com/frosttlink/ignite-shop"
-            />
+            <ProjectLinks githubUrl="https://github.com/frosttlink/ignite-shop" />
           </div>
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
-  )
+  );
 }

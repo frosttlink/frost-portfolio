@@ -1,11 +1,11 @@
-import { useContext, type ReactNode } from "react"
-import { ChevronDown } from "lucide-react"
-import { AccordionContext } from "@/components/stack-accordion"
+import { useContext, type ReactNode } from "react";
+import { ChevronDown } from "lucide-react";
+import { AccordionContext } from "@/components/stack-accordion";
 
 interface StackSectionProps {
-  title: string
-  children: ReactNode
-  defaultOpen?: boolean
+  title: string;
+  children: ReactNode;
+  defaultOpen?: boolean;
 }
 
 export function StackSection({
@@ -13,22 +13,22 @@ export function StackSection({
   children,
   defaultOpen = false,
 }: StackSectionProps) {
-  const context = useContext(AccordionContext)
+  const context = useContext(AccordionContext);
 
   if (!context) {
-    throw new Error("StackSection must be used inside <StackAccordion>")
+    throw new Error("StackSection must be used inside <StackAccordion>");
   }
 
-  const { openTitle, setOpenTitle } = context
+  const { openTitle, setOpenTitle } = context;
 
-  const open = openTitle === title
+  const open = openTitle === title;
 
   if (defaultOpen && openTitle === null) {
-    setOpenTitle(title)
+    setOpenTitle(title);
   }
 
   function toggle() {
-    setOpenTitle(open ? null : title)
+    setOpenTitle(open ? null : title);
   }
 
   return (
@@ -40,7 +40,9 @@ export function StackSection({
         className="flex w-full items-center justify-between text-xs uppercase tracking-widest text-zinc-500 hover:text-zinc-300 transition"
       >
         {title}
-        <ChevronDown className={`h-4 w-4 transition-transform ${open ? "rotate-180" : ""}`} />
+        <ChevronDown
+          className={`h-4 w-4 transition-transform ${open ? "rotate-180" : ""}`}
+        />
       </button>
 
       <div
@@ -54,5 +56,5 @@ export function StackSection({
         {children}
       </div>
     </div>
-  )
+  );
 }

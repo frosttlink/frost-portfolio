@@ -1,7 +1,7 @@
-import * as Dialog from "@radix-ui/react-dialog"
-import Image from "next/image"
-import { X } from "lucide-react"
-import { ProjectLinks } from "../ui/projetct-links"
+import * as Dialog from "@radix-ui/react-dialog";
+import Image from "next/image";
+import { X } from "lucide-react";
+import { ProjectLinks } from "../ui/projetct-links";
 
 export function DtMoneyProject() {
   return (
@@ -80,12 +80,10 @@ export function DtMoneyProject() {
           </div>
 
           <div className="mt-6 flex justify-end">
-            <ProjectLinks
-              githubUrl="https://github.com/frosttlink/dt-money"
-            />
+            <ProjectLinks githubUrl="https://github.com/frosttlink/dt-money" />
           </div>
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
-  )
+  );
 }
